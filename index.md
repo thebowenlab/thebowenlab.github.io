@@ -1,13 +1,14 @@
 ---
 ---
 
-# thebowenlab's Website
+# The Bowen Lab
+To study how the brain supports glycemic control, we combine state-of-the-art systems neuroscience approaches in mice, including large-scale neural recordings with Neuropixels probes, continuous glucose monitoring, computational analysis, and self-supervised behavioral analysis. 
 
-An engaging 1-3 sentence description of your lab.
+As part of a broader scientific collective, we are also developing and open-sourcing foundational datasets and models for detecting, tracking, and sequencing rodent behavior. These tools are designed to support consistent and scalable analysis across laboratories and experimental conditions and unify interpretation.
 
 {% include section.html %}
 
-## Highlights
+## Explore
 
 {% capture text %}
 
