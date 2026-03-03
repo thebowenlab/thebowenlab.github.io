@@ -18,3 +18,25 @@
     - open science
     - collaboration
   repo: steinmetzlab/ottenheimer-et-al-2022
+
+- id: https://doi.org/10.1038/s41467-023-36603-z
+  type: paper
+  tags:
+    - collaboration
+
+- id: https://doi.org/10.1101/2025.02.04.636286
+  type: paper
+  tags:
+    - collaboration
+    - preprint
+
+- id: https://doi:10.1126/sciadv.adp3059
+  type: paper
+  tags:
+    - collaboration
+
+- id: https://doi:10.1038/s41467-023-35826-4
+  type: paper
+  description: Identified topographic differences in coding of current external versus internal threats in central amygdala CGRP-receptor expressing neurons. 
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-35826-4/MediaObjects/41467_2023_35826_Fig1_HTML.png?as=webp
+  
