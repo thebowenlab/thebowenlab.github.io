@@ -1,3 +1,8 @@
+# should be a list of dicts, with format 
+#- id:
+#  type:
+#  image:
+
 - id: https://doi.org/10.7554/eLife.84604.3
   type: paper
   description: Examines the distribution of value-coding neurons across prefrontal cortex, commbining electrophysiology and 2-photon calcium imaging. Dataset available for download. 
