@@ -39,4 +39,9 @@
   type: paper
   description: Identified topographic differences in coding of current external versus internal threats in central amygdala CGRP-receptor expressing neurons. 
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-35826-4/MediaObjects/41467_2023_35826_Fig1_HTML.png?as=webp
+
+-id: https://doi:10.1523/jneurosci.1162-19.2019
+  type: review
+  tags:
+    - review
   
