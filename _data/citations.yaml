@@ -220,7 +220,7 @@
   orcid: 0000-0002-8911-2572
   plugin: orcid.py
   file: orcid.yaml
-- id: https://doi.org/10.7554/eLife.84604
+- id: https://doi.org/10.7554/eLife.84604.3
   title: A stable, distributed code for cue value in mouse cortex during reward learning
   authors:
   - David J. Ottenheimer
