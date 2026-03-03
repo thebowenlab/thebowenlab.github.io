@@ -220,61 +220,31 @@
   orcid: 0000-0002-8911-2572
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
+- id: https://doi.org/10.7554/eLife.84604.3
+  title: A stable, distributed code for cue value in mouse cortex during reward learning
   authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
+  - David J. Ottenheimer
+  - Madelyn M. Hjort
+  - Anna J. Bowen
+  - Nicholas A. Steinmetz
+  - Garret D. Stuber
+  publisher: eLife
+  date: '2023-05-30'
+  link: https://elifesciences.org/articles/84604
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: Examines the distribution of value-coding neurons across prefrontal
+    cortex, commbining electrophysiology and 2-photon calcium imaging. Dataset available
+    for download.
   image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
   buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
   - type: source
     text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
+    link: https://elifesciences.org/articles/84604#fig1s2
+  - type: data
+    link: https://doi.org/10.6084/m9.figshare.21365598
   tags:
   - open science
   - collaboration
-  repo: greenelab/meta-review
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
-  authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
-  authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  repo: steinmetzlab/ottenheimer-et-al-2022
   plugin: sources.py
   file: sources.yaml
