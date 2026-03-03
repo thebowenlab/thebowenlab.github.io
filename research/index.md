@@ -13,7 +13,7 @@ Our publications are all open access. If repositories are not provided with the 
 
 ## Highlighted
 
-{% include citation.html lookup="https://doi.org/10.7554/eLife.84604.3" style="rich" %}
+{% include citation.html lookup="A stable, distributed code" style="rich" %}
 
 {% include section.html %}
 
