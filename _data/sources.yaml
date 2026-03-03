@@ -3,7 +3,7 @@
 #  type:
 #  image:
 
-- id: https://doi.org/10.7554/eLife.84604.3
+- id: https://doi.org/10.7554/eLife.84604.2
   type: paper
   description: Examines the distribution of value-coding neurons across prefrontal cortex, commbining electrophysiology and 2-photon calcium imaging. Dataset available for download. 
   date: 2023-05-30
