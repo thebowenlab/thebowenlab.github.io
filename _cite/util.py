@@ -6,7 +6,7 @@ import subprocess
 import json
 import yaml
 import re
-import unicode data
+import unicodedata
 from copy import deepcopy
 from yaml.loader import SafeLoader
 from pathlib import Path
