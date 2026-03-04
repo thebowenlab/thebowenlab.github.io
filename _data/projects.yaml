@@ -1,35 +1,31 @@
-- title: Glucose forecasting
-  subtitle: Brain networks coding for current and future glycemia
+- title: Glucose forecasting networks
   group: featured
   image: images/projects/Npx-glucose-neurons.gif
   link: https://github.com/
-  description: We collected a dataset of activity from 18,000 neurons with simultaneously recorded blood glucose levels to identify glucose-coding neurons across the brain. Publication and dataset coming soon!
+  description: We recorded from 18,000 neurons while simultaneously recording blood glucose levels to identify glucose-coding neurons across the brain. Publication and dataset coming soon!
   repo: thebowenlab/bowen-et-al-2026
   tags:
     - resource
     - publication
 
-- title: Mouse behavior
-  subtitle: A foundational surface model of the mouse
+- title: A foundational surface model of the mouse
   group: featured
   image: images/projects/joined_videos.gif
   link: https://github.com/
-  description: A collaboration with the Campos Lab at UW developing a foundational model for mapping any mouse image to a canonical 3D surface. Publication and model launch coming soon!  
+  description: A collaboration with the Campos Lab at UW developing a foundational model to map any mouse image onto a canonical 3D surface. Publication and model launch coming soon!  
   repo: thebowenlab
   tags:
     - resource
     - publication
 
 - title: Multimodal modeling
-  subtitle: Combine neural, behavioral, and glucose signals in a single representation
   image: images/projects/JointModeling.png
-  description: Our goal is to leverage behavioral representations as a unifying feature to combine neural activity and physiological measurements across diverse experimental conditions and disease states.
+  description: Our goal is to leverage behavior as a unifying feature to unite neural activity and physiological measurements across diverse experimental conditions and disease states.
   repo: thebowenlab
   tags:
     - resource
 
-- title: Forecasting during disease
-  subtitle: How are network states impacted as diabetic hyperglycemia develops?
+- title: Forecasting changes during disease
   image: images/projects/Diabetes.png
   description: We're collaborating with the Schwartz and Sweet labs at UWMDI to examine how neural forecasting of blood glucose changes as metabolic disease develops -- and whether existing and novel therapies revert towards a healthier state.
   repo: thebowenlab
