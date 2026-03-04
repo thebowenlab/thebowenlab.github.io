@@ -306,6 +306,24 @@
   - preprint
   plugin: sources.py
   file: sources.yaml
+- id: https://doi.org/10.1101/2024.11.01.621418
+  title: Simultaneous mesoscopic measurement and manipulation of mouse cortical activity
+  authors:
+  - Pascha Matveev
+  - Anna J. Li
+  - Zhiwen Ye
+  - Anna J. Bowen
+  - Ximena Opitz-Araya
+  - Jonathan T. Ting
+  - Nicholas A. Steinmetz
+  publisher: bioRxiv
+  date: '2024-11-01'
+  link: https://www.biorxiv.org/content/10.1101/2024.11.01.621418v1
+  type: paper
+  tags:
+  - preprint
+  plugin: sources.py
+  file: sources.yaml
 - id: https://doi.org/10.1126/sciadv.adp3059
   title: Single-cell sequencing of rodent ventral pallidum reveals diverse neuronal
     subtypes with noncanonical interregional continuity
@@ -323,6 +341,30 @@
   type: paper
   tags:
   - collaboration
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.7554/eLife.59799
+  title: Dissociable control of unconditioned responses and associative fear learning
+    by parabrachial CGRP neurons
+  authors:
+  - Anna J. Bowen
+  - Jane Y. Chen
+  - Y. Waterlily Huang
+  - Nathan A. Baertsch
+  - Sekun Park
+  - Richard D. Palmiter
+  publisher: eLife
+  date: '2020-08-28'
+  link: https://elifesciences.org/articles/59799
+  type: paper
+  description: Parsed the network downstream of parabrachial CGRP neurons and how
+    activity is added to give rise to distinct physiological and behavioral states
+    and learning.
+  buttons:
+  - type: data
+    link: https://doi.org/10.5061/dryad.rn8pk0p7k
+  tags:
+  - open science
   plugin: sources.py
   file: sources.yaml
 - id: https://doi.org/10.1038/s41467-023-35826-4
@@ -359,5 +401,63 @@
   type: review
   tags:
   - review
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.1073/pnas.2004941117
+  title: Chronic G <sub>q</sub> signaling in AgRP neurons does not cause obesity
+  authors:
+  - Sedona N. Ewbank
+  - Carlos A. Campos
+  - Jane Y. Chen
+  - Anna J. Bowen
+  - Stephanie L. Padilla
+  - Joseph L. Dempsey
+  - Julia Yue Cui
+  - Richard D. Palmiter
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2020-08-25'
+  link: https://pnas.org/doi/full/10.1073/pnas.2004941117
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.1038/nature25511
+  title: Encoding of danger by parabrachial CGRP neurons
+  authors:
+  - Carlos A. Campos
+  - Anna J. Bowen
+  - Carolyn W. Roman
+  - Richard D. Palmiter
+  publisher: Nature
+  date: '2018-03-01'
+  link: https://www.nature.com/articles/nature25511
+  type: paper
+  description: Revealed unified activation of parabrachial CGRP neurons by multi-modal
+    threats, including somatic pain, itch, visceral malaise -- in addition to satiety
+    and conditioned fear.
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.1038/nn.4574
+  title: Cancer-induced anorexia and malaise are mediated by CGRP neurons in the parabrachial
+    nucleus
+  authors:
+  - Carlos A. Campos
+  - Anna J. Bowen
+  - Sung Han
+  - Brent E. Wisse
+  - Richard D. Palmiter
+  - Michael W. Schwartz
+  publisher: Nature Neuroscience
+  date: '2017-07-01'
+  link: https://www.nature.com/articles/nn.4574
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/1016/j.cmet.2016.04.006
+  title: ''
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://doi.org/1016/j.cmet.2016.04.006
+  type: paper
   plugin: sources.py
   file: sources.yaml
