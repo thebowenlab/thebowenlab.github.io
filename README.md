@@ -3,7 +3,7 @@
   ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
   ![on-schedule](../../actions/workflows/on-schedule.yaml/badge.svg)
 
-  # thebowenlab's Website
+  # The Bowen Lab's Website
 
   Visit **[thebowenlab.github.io](https://thebowenlab.github.io)** 🚀
 
