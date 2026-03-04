@@ -94,21 +94,204 @@ for plugin in plugins:
             if plugin.stem != "sources":
                 log(f"{len(expanded)} source(s)", indent=3)
 
+log("Merging sources by normalized id/title")
 
-log("Merging sources by id")
 
-# merge sources with matching (non-blank) ids
-for a in range(0, len(sources)):
-    a_id = get_safe(sources, f"{a}.id", "")
-    if not a_id:
-        continue
-    for b in range(a + 1, len(sources)):
-        b_id = get_safe(sources, f"{b}.id", "")
-        if b_id == a_id:
-            log(f"Found duplicate {b_id}", indent=2)
-            sources[a].update(sources[b])
-            sources[b] = {}
-sources = [entry for entry in sources if entry]
+def _norm_text(s):
+    """Normalize text for fuzzy-equality matching (titles)."""
+    if s is None:
+        return ""
+    s = str(s).strip().lower()
+    s = unicodedata.normalize("NFKD", s)
+    s = "".join(ch for ch in s if not unicodedata.combining(ch))
+    # collapse punctuation/whitespace differences
+    s = re.sub(r"[^\w\s]", " ", s)
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+
+def _extract_doi(s):
+    """
+    Extract canonical DOI string from many formats:
+      - https://doi.org/10.xxxx/abc
+      - http://dx.doi.org/10.xxxx/abc
+      - doi:10.xxxx/abc
+      - 10.xxxx/abc
+    Returns lowercase DOI or "".
+    """
+    if not s:
+        return ""
+    s = str(s).strip()
+
+    # Common DOI URL / prefix cleanup
+    s_low = s.lower().strip()
+    s_low = re.sub(r"^https?://(dx\.)?doi\.org/", "", s_low)
+    s_low = re.sub(r"^doi:\s*", "", s_low)
+
+    # If the whole thing is now a DOI, capture it
+    # DOI generally begins with 10.<registrant>/<suffix>
+    m = re.search(r"(10\.\d{4,9}/\S+)", s_low)
+    if not m:
+        return ""
+
+    doi = m.group(1)
+
+    # Strip trailing punctuation often introduced in copied references
+    doi = doi.rstrip(").,;]")
+    doi = doi.lstrip("(")
+
+    return doi
+
+
+def _canonical_id(source):
+    """
+    Build a normalized identity key for exact-ish matching.
+    Prefers DOI normalization, otherwise falls back to normalized id.
+    """
+    raw_id = get_safe(source, "id", "")
+    if not raw_id:
+        return ""
+
+    doi = _extract_doi(raw_id)
+    if doi:
+        return f"doi:{doi}"
+
+    # Generic fallback (normalize whitespace/case)
+    return f"id:{_norm_text(raw_id)}"
+
+
+def _canonical_title(source):
+    """
+    Build a normalized title key for fallback matching.
+    """
+    title = get_safe(source, "title", "")
+    return _norm_text(title)
+
+
+def _plugin_priority(source):
+    """
+    Higher number = preferred source when merging conflicts.
+    We generally want user-curated sources.py entries to win.
+    """
+    plugin = str(get_safe(source, "plugin", ""))
+    # plugin is stored as file name, e.g. "sources.py", "orcid.py"
+    if plugin == "sources.py":
+        return 100
+    if plugin == "orcid.py":
+        return 50
+    return 10
+
+
+def _merge_two_sources(a, b):
+    """
+    Merge source dicts with preference for curated/manual entries.
+    Preserves richer fields (e.g., image/buttons/tags) when present.
+    """
+    a = deepcopy(a)
+    b = deepcopy(b)
+
+    # choose base / overlay by plugin priority
+    if _plugin_priority(b) > _plugin_priority(a):
+        base, overlay = b, a
+    else:
+        base, overlay = a, b
+
+    merged = deepcopy(base)
+
+    # Merge fields from overlay carefully
+    for k, v in overlay.items():
+        if v in [None, "", [], {}]:
+            continue
+
+        # If base lacks value, take overlay
+        if k not in merged or merged[k] in [None, "", [], {}]:
+            merged[k] = v
+            continue
+
+        # Merge tags uniquely
+        if k == "tags" and isinstance(merged[k], list) and isinstance(v, list):
+            seen = set()
+            out = []
+            for item in merged[k] + v:
+                key = str(item).strip().lower()
+                if key not in seen:
+                    seen.add(key)
+                    out.append(item)
+            merged[k] = out
+            continue
+
+        # Merge buttons uniquely by (type, text, link)
+        if k == "buttons" and isinstance(merged[k], list) and isinstance(v, list):
+            seen = set()
+            out = []
+            for btn in merged[k] + v:
+                if isinstance(btn, dict):
+                    sig = (
+                        str(btn.get("type", "")).strip().lower(),
+                        str(btn.get("text", "")).strip().lower(),
+                        str(btn.get("link", "")).strip(),
+                    )
+                else:
+                    sig = ("raw", str(btn))
+                if sig not in seen:
+                    seen.add(sig)
+                    out.append(btn)
+            merged[k] = out
+            continue
+
+        # Keep base value by default (because base was chosen by priority)
+        # but you can add exceptions here if desired.
+
+    return merged
+
+
+# First pass: merge by canonical id
+id_groups = {}
+no_id_sources = []
+
+for s in sources:
+    key = _canonical_id(s)
+    if key:
+        id_groups.setdefault(key, []).append(s)
+    else:
+        no_id_sources.append(s)
+
+merged_sources = []
+
+for key, group in id_groups.items():
+    if len(group) > 1:
+        log(f"Found duplicate id-group {key} ({len(group)} entries)", indent=2)
+    merged = group[0]
+    for g in group[1:]:
+        merged = _merge_two_sources(merged, g)
+    merged_sources.append(merged)
+
+# Include entries with no id as-is for now
+merged_sources.extend(no_id_sources)
+
+# Second pass: merge by normalized title (fallback)
+# This will merge preprint/journal versions if titles match closely after normalization.
+title_groups = {}
+no_title_sources = []
+
+for s in merged_sources:
+    tkey = _canonical_title(s)
+    if tkey:
+        title_groups.setdefault(tkey, []).append(s)
+    else:
+        no_title_sources.append(s)
+
+sources = []
+
+for tkey, group in title_groups.items():
+    if len(group) > 1:
+        log(f"Found duplicate title-group '{tkey[:80]}' ({len(group)} entries)", indent=2)
+    merged = group[0]
+    for g in group[1:]:
+        merged = _merge_two_sources(merged, g)
+    sources.append(merged)
+
+sources.extend(no_title_sources)
 
 
 log(f"{len(sources)} total source(s) to cite")
