@@ -248,3 +248,116 @@
   repo: steinmetzlab/ottenheimer-et-al-2022
   plugin: sources.py
   file: sources.yaml
+- id: https://doi.org/10.1038/s41467-023-36603-z
+  title: Parabrachial tachykinin1-expressing neurons involved in state-dependent breathing
+    control
+  authors:
+  - Joseph W. Arthurs
+  - Anna J. Bowen
+  - Richard D. Palmiter
+  - Nathan A. Baertsch
+  publisher: Nature Communications
+  date: '2023-02-21'
+  link: https://www.nature.com/articles/s41467-023-36603-z
+  type: paper
+  tags:
+  - collaboration
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.1101/2025.02.04.636286
+  title: 'Neuropixels Opto: Combining high-resolution electrophysiology and optogenetics'
+  authors:
+  - Anna Lakunina
+  - Karolina Z. Socha
+  - Alexander Ladd
+  - Anna J. Bowen
+  - Susu Chen
+  - Jennifer Colonell
+  - Anjal Doshi
+  - Bill Karsh
+  - Michael Krumin
+  - Pavel Kulik
+  - Anna Li
+  - Pieter Neutens
+  - "John O\u2019Callaghan"
+  - Meghan Olsen
+  - Jan Putzeys
+  - Charu Bai Reddy
+  - Harrie AC Tilmans
+  - Sara Vargas
+  - Marleen Welkenhuysen
+  - Zhiwen Ye
+  - "Michael H\xE4usser"
+  - Christof Koch
+  - Jonathan T. Ting
+  - Neuropixels Opto Consortium
+  - Barundeb Dutta
+  - Timothy D. Harris
+  - Nicholas A. Steinmetz
+  - Karel Svoboda
+  - Joshua H. Siegle
+  - Matteo Carandini
+  publisher: bioRxiv
+  date: '2025-10-15'
+  link: https://www.biorxiv.org/content/10.1101/2025.02.04.636286v3
+  type: paper
+  tags:
+  - collaboration
+  - preprint
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.1126/sciadv.adp3059
+  title: Single-cell sequencing of rodent ventral pallidum reveals diverse neuronal
+    subtypes with noncanonical interregional continuity
+  authors:
+  - David J. Ottenheimer
+  - Rhiana C. Simon
+  - Brandy A. Briones
+  - Cassidy T. Burke
+  - Anna J. Bowen
+  - Susan M. Ferguson
+  - Garret D. Stuber
+  publisher: Science Advances
+  date: '2025-12-05'
+  link: https://www.science.org/doi/10.1126/sciadv.adp3059
+  type: paper
+  tags:
+  - collaboration
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.1038/s41467-023-35826-4
+  title: Topographic representation of current and future threats in the mouse nociceptive
+    amygdala
+  authors:
+  - Anna J. Bowen
+  - Y. Waterlily Huang
+  - Jane Y. Chen
+  - Jordan L. Pauli
+  - Carlos A. Campos
+  - Richard D. Palmiter
+  publisher: Nature Communications
+  date: '2023-01-13'
+  link: https://www.nature.com/articles/s41467-023-35826-4
+  type: paper
+  description: Identified topographic differences in coding of current external versus
+    internal threats in central amygdala CGRP-receptor expressing neurons.
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-35826-4/MediaObjects/41467_2023_35826_Fig1_HTML.png?as=webp
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.1523/jneurosci.1162-19.2019
+  title: 'Parabrachial Complex: A Hub for Pain and Aversion'
+  authors:
+  - Michael C. Chiang
+  - Anna Bowen
+  - Lindsey A. Schier
+  - Domenico Tupone
+  - Olivia Uddin
+  - Mary M. Heinricher
+  publisher: The Journal of Neuroscience
+  date: '2019-10-16'
+  link: https://www.jneurosci.org/lookup/doi/10.1523/JNEUROSCI.1162-19.2019
+  type: review
+  tags:
+  - review
+  plugin: sources.py
+  file: sources.yaml
