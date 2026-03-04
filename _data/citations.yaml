@@ -11,7 +11,6 @@
   publisher: eLife
   date: '2023-05-30'
   link: https://elifesciences.org/articles/84604
-  type: paper
   description: Examines the distribution of value-coding neurons across prefrontal
     cortex, combining electrophysiology and 2-photon calcium imaging. Dataset available
     for download.
@@ -21,6 +20,7 @@
     text: Manuscript Source
     link: https://elifesciences.org/articles/84604
   - type: data
+    text: download data
     link: https://doi.org/10.6084/m9.figshare.21365598
   tags:
   - open science
@@ -39,7 +39,6 @@
   publisher: Nature Communications
   date: '2023-02-21'
   link: https://www.nature.com/articles/s41467-023-36603-z
-  type: paper
   tags:
   - collaboration
   plugin: sources.py
@@ -80,7 +79,6 @@
   publisher: bioRxiv
   date: '2025-10-15'
   link: https://www.biorxiv.org/content/10.1101/2025.02.04.636286v3
-  type: paper
   tags:
   - collaboration
   - preprint
@@ -99,7 +97,6 @@
   publisher: bioRxiv
   date: '2024-11-01'
   link: https://www.biorxiv.org/content/10.1101/2024.11.01.621418v1
-  type: paper
   tags:
   - preprint
   plugin: sources.py
@@ -118,7 +115,6 @@
   publisher: Science Advances
   date: '2025-12-05'
   link: https://www.science.org/doi/10.1126/sciadv.adp3059
-  type: paper
   tags:
   - collaboration
   plugin: sources.py
@@ -136,12 +132,12 @@
   publisher: eLife
   date: '2020-08-28'
   link: https://elifesciences.org/articles/59799
-  type: paper
   description: Parsed the network downstream of parabrachial CGRP neurons and how
     activity is added to give rise to distinct physiological and behavioral states
     and learning.
   buttons:
   - type: data
+    text: download data
     link: https://doi.org/10.5061/dryad.rn8pk0p7k
   tags:
   - open science
@@ -160,10 +156,13 @@
   publisher: Nature Communications
   date: '2023-01-13'
   link: https://www.nature.com/articles/s41467-023-35826-4
-  type: paper
   description: Identified topographic differences in coding of current external versus
     internal threats in central amygdala CGRP-receptor expressing neurons.
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-35826-4/MediaObjects/41467_2023_35826_Fig1_HTML.png?as=webp
+  buttons:
+  - type: data
+    text: download data
+    link: https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-023-35826-4/MediaObjects/41467_2023_35826_MOESM4_ESM.xlsx
   plugin: sources.py
   file: sources.yaml
 - id: https://doi.org/10.1523/jneurosci.1162-19.2019
@@ -178,7 +177,6 @@
   publisher: The Journal of Neuroscience
   date: '2019-10-16'
   link: https://www.jneurosci.org/lookup/doi/10.1523/JNEUROSCI.1162-19.2019
-  type: review
   tags:
   - review
   plugin: sources.py
@@ -197,7 +195,6 @@
   publisher: Proceedings of the National Academy of Sciences
   date: '2020-08-25'
   link: https://pnas.org/doi/full/10.1073/pnas.2004941117
-  type: paper
   plugin: sources.py
   file: sources.yaml
 - id: https://doi.org/10.1038/nature25511
@@ -210,7 +207,6 @@
   publisher: Nature
   date: '2018-03-01'
   link: https://www.nature.com/articles/nature25511
-  type: paper
   description: Revealed unified activation of parabrachial CGRP neurons by multi-modal
     threats, including somatic pain, itch, visceral malaise -- in addition to satiety
     and conditioned fear.
@@ -229,7 +225,6 @@
   publisher: Nature Neuroscience
   date: '2017-07-01'
   link: https://www.nature.com/articles/nn.4574
-  type: paper
   plugin: sources.py
   file: sources.yaml
 - id: https://doi.org/1016/j.cmet.2016.04.006
@@ -238,6 +233,5 @@
   publisher: ''
   date: ''
   link: https://doi.org/1016/j.cmet.2016.04.006
-  type: paper
   plugin: sources.py
   file: sources.yaml
