@@ -34,8 +34,8 @@ We are located at the University of Washington's South Lake Union Campus.
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/SLU_lake.webp"
+  caption="Lake Union"
 %}
 
 {% endcapture %}
@@ -44,13 +44,23 @@ We are located at the University of Washington's South Lake Union Campus.
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/SLU.jpg"
+  caption="South Lake Union Campus"
 %}
 
 {% endcapture %}
 
-{% include cols.html col1=col1 col2=col2 %}
+{% capture col3 %}
+
+{%
+  include figure.html
+  image="images/SLU_space-needle.webp"
+  caption="Space Needle"
+%}
+
+{% endcapture %}
+
+{% include cols.html col1=col1 col2=col2 col3=col3%}
 
 {% include section.html dark=true %}
 
