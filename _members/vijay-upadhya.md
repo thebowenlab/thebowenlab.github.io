@@ -7,4 +7,4 @@ links:
   email: vupadhya@uw.edu
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+I'm a B.S + M.S Computer Science graduate from Georgia Tech and I've since worked at Boeing and Google. I'm interested in Computer Vision and Graphics and applications of those to Biology and Health. I also love reading in my spare time!
