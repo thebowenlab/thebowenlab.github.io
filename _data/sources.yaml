@@ -4,7 +4,6 @@
 #  image:
 
 - id: https://doi.org/10.7554/eLife.84604
-  type: paper
   description: Examines the distribution of value-coding neurons across prefrontal cortex, combining electrophysiology and 2-photon calcium imaging. Dataset available for download.
   date: 2023-05-30
   image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
@@ -13,6 +12,7 @@
       text: Manuscript Source
       link: https://elifesciences.org/articles/84604
     - type: data
+      text: download data
       link: https://doi.org/10.6084/m9.figshare.21365598
   tags:
     - open science
@@ -20,57 +20,51 @@
   repo: steinmetzlab/ottenheimer-et-al-2022
 
 - id: https://doi.org/10.1038/s41467-023-36603-z
-  type: paper
   tags:
     - collaboration
 
 - id: https://doi.org/10.1101/2025.02.04.636286
-  type: paper
   tags:
     - collaboration
     - preprint
 
 - id: https://doi.org/10.1101/2024.11.01.621418
-  type: paper
   tags: 
     - preprint
 
 - id: https://doi.org/10.1126/sciadv.adp3059
-  type: paper
   tags:
     - collaboration
 
 - id: https://doi.org/10.7554/eLife.59799
-  type: paper
   description: Parsed the network downstream of parabrachial CGRP neurons and how activity is added to give rise to distinct physiological and behavioral states and learning.
   buttons:
     - type: data
+      text: download data
       link: https://doi.org/10.5061/dryad.rn8pk0p7k
   tags:
     - open science
 
 - id: https://doi.org/10.1038/s41467-023-35826-4
-  type: paper
   description: Identified topographic differences in coding of current external versus internal threats in central amygdala CGRP-receptor expressing neurons.
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-35826-4/MediaObjects/41467_2023_35826_Fig1_HTML.png?as=webp
-
+  buttons:
+    - type: data
+      text: download data
+      link: https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-023-35826-4/MediaObjects/41467_2023_35826_MOESM4_ESM.xlsx
+    
 - id: https://doi.org/10.1523/jneurosci.1162-19.2019
-  type: review
   tags:
     - review
 
 - id: https://doi.org/10.1073/pnas.2004941117
-  type: paper
 
 - id: https://doi.org/10.1038/nature25511
-  type: paper
   description: Revealed unified activation of parabrachial CGRP neurons by multi-modal threats, including somatic pain, itch, visceral malaise -- in addition to satiety and conditioned fear.
 
 - id: https://doi.org/10.1038/nn.4574
-  type: paper
 
 - id: https://doi.org/1016/j.cmet.2016.04.006
-  type: paper
  
   
 
