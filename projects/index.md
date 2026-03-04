@@ -7,8 +7,16 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+### Motivation:
+A growing body of evidence suggests that the brain plays a direct role in regulating blood glucose levels, alongside the pancreas. This development is especially compelling considering its more obvious role in guiding behavior – when, what, and how much we eat, and whether we exercise (and for how long). 
+
+
+Our work is driven by the hypothesis that the brain contributes to blood glucose regulation in a **predictive** way. With access to both external cues (such as the appearance, smell, and taste of food), internal signals related to nutrient intake, and information about the body’s own actions and energy use, the brain is uniquely positioned to act as a proactive glycemic controller.
+### Approach:
+To study how the brain supports glycemic control, we combine state-of-the-art systems neuroscience approaches in mice, including large-scale neural recordings with Neuropixels probes, continuous glucose monitoring, computational analysis, and self-supervised behavioral analysis.
+
+We first identify brain networks that forecast blood glucose levels and examine how these networks also represent other sensory and behavioral variables, such as taste. We then test how these network coding properties change in disease models. Our goal is to build a spatiotemporal map of how disease affects glycemic control networks and to identify therapeutic strategies that help restore healthier patterns of brain activity.
+
 
 {% include tags.html tags="publication, resource, website" %}
 
