@@ -30,10 +30,24 @@
     - collaboration
     - preprint
 
+- id: https://doi.org/10.1101/2024.11.01.621418
+  type: paper
+  tags: 
+    - preprint
+
 - id: https://doi.org/10.1126/sciadv.adp3059
   type: paper
   tags:
     - collaboration
+
+- id: https://doi.org/10.7554/eLife.59799
+  type: paper
+  description: Parsed the network downstream of parabrachial CGRP neurons and how activity is added to give rise to distinct physiological and behavioral states and learning.
+  buttons:
+    - type: data
+      link: https://doi.org/10.5061/dryad.rn8pk0p7k
+  tags:
+    - open science
 
 - id: https://doi.org/10.1038/s41467-023-35826-4
   type: paper
@@ -44,4 +58,22 @@
   type: review
   tags:
     - review
+
+- id: https://doi.org/10.1073/pnas.2004941117
+  type: paper
+
+- id: https://doi.org/10.1038/nature25511
+  type: paper
+  description: Revealed unified activation of parabrachial CGRP neurons by multi-modal threats, including somatic pain, itch, visceral malaise -- in addition to satiety and conditioned fear.
+
+- id: https://doi.org/10.1038/nn.4574
+  type: paper
+
+- id: https://doi.org/1016/j.cmet.2016.04.006
+  type: paper
+ 
+  
+
+
+   
   
