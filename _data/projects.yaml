@@ -1,47 +1,46 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Glucose forecasting
+  subtitle: Brain networks coding for current and future glycemia
   group: featured
-  image: images/photo.jpg
+  image: images/projects/Npx-glucose-neurons.gif
   link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: We collected a dataset of activity from 18,000 neurons with simultaneously recorded blood glucose levels to identify glucose-coding neurons across the brain. Publication and dataset coming soon!
+  repo: thebowenlab/bowen-et-al-2026
   tags:
     - resource
     - publication
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
+- title: Mouse behavior
+  subtitle: A foundational surface model of the mouse
+  group: featured
+  image: images/projects/joined_videos.gif
   link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: A collaboration with the Campos Lab at UW developing a foundational model for mapping any mouse image to a canonical 3D surface. Publication and model launch coming soon!  
+  repo: thebowenlab
   tags:
-    - software
+    - resource
+    - publication
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Multimodal modeling
+  subtitle: Combine neural, behavioral, and glucose signals in a single representation
+  image: images/projects/JointModeling.png
+  description: Our goal is to leverage behavioral representations as a unifying feature to combine neural activity and physiological measurements across diverse experimental conditions and disease states.
+  repo: thebowenlab
   tags:
-    - software
+    - resource
+
+- title: Forecasting during disease
+  subtitle: How are network states impacted as diabetic hyperglycemia develops?
+  image: images/projects/Diabetes.png
+  description: We're collaborating with the Schwartz and Sweet labs at UWMDI to examine how neural forecasting of blood glucose changes as metabolic disease develops -- and whether existing and novel therapies revert towards a healthier state.
+  repo: thebowenlab
+  tags:
+    - resource
+    - publication
+
+- title: Sensory routes
+  subtitle: Role of distinct input nodes in glucose predictions
+  image: images/projects/nodes_for_predictions.png
+  description: We're testing how different taste and gut-derived sensory modalities integrate with external information to build glycemic predictions.
+  repo: thebowenlab
+  tags:
+    - resource
