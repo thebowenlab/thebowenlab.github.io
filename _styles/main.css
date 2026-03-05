@@ -7,8 +7,7 @@ main {
 
 /* Home page: shift the 2nd sentence block to start mid-page */
 .home-lead-shift {
-  max-width: 42rem;
-  margin-left: auto;
+  margin-left: clamp(2rem, 18vw, 16rem);
   margin-right: 0;
 }
 
