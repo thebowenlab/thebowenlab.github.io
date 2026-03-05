@@ -7,10 +7,9 @@ main {
 
 /* Home page: shift the 2nd sentence block to start mid-page */
 .home-lead-shift-small {
-  margin-left: clamp(2rem, 9vw, 8rem);
-  margin-right: 0;
-  max-width: none;
-  text-align: left;
+  margin-left: 200px !important;
+  border-left: 3px solid red;
+  padding-left: 10px;
 }
 
 .home-lead-shift-medium {
