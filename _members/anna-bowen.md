@@ -1,6 +1,6 @@
 ---
 name: Anna Bowen
-image: images/Bowen_headshot.jpg
+image: images/members/Bowen_headshot.jpg
 role: principal-investigator
 affiliation: University of Washington
 aliases:
