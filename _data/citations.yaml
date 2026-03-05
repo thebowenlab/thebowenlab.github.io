@@ -14,6 +14,7 @@
   publisher: Science Advances
   date: '2025-12-05'
   link: https://www.science.org/doi/10.1126/sciadv.adp3059
+  image: images/citations/ottenheimer_2025.jpg
   tags:
   - collaboration
   plugin: sources.py
@@ -55,6 +56,7 @@
   publisher: bioRxiv
   date: '2025-10-15'
   link: https://www.biorxiv.org/content/10.1101/2025.02.04.636286v3
+  image: images/citations/neuropixelsopto_2025.png
   tags:
   - collaboration
   - preprint
@@ -74,6 +76,7 @@
   publisher: bioRxiv
   date: '2024-11-01'
   link: https://www.biorxiv.org/content/10.1101/2024.11.01.621418v1
+  image: images/citations/matveev_2025.png
   tags:
   - preprint
   plugin: sources.py
@@ -93,7 +96,7 @@
   description: Examines the distribution of value-coding neurons across prefrontal
     cortex, combining electrophysiology and 2-photon calcium imaging. Dataset available
     for download.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  image: images/citations/ottenheimer_2023.png
   buttons:
   - type: source
     text: Manuscript Source
@@ -119,6 +122,7 @@
   publisher: Nature Communications
   date: '2023-02-21'
   link: https://www.nature.com/articles/s41467-023-36603-z
+  image: images/citations/arthurs_2023.webp
   tags:
   - collaboration
   plugin: sources.py
@@ -139,7 +143,7 @@
   link: https://www.nature.com/articles/s41467-023-35826-4
   description: Identified topographic differences in coding of current external versus
     internal threats in central amygdala CGRP-receptor expressing neurons.
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-35826-4/MediaObjects/41467_2023_35826_Fig1_HTML.png?as=webp
+  image: images/citations/bowen_2023.webp
   buttons:
   - type: data
     text: download data
@@ -206,6 +210,7 @@
   publisher: The Journal of Neuroscience
   date: '2019-10-16'
   link: https://www.jneurosci.org/lookup/doi/10.1523/JNEUROSCI.1162-19.2019
+  image: images/citations/jneuro_review.jpg
   tags:
   - review
   plugin: sources.py
@@ -221,6 +226,7 @@
   publisher: Nature
   date: '2018-03-01'
   link: https://www.nature.com/articles/nature25511
+  image: images/citations/campos_2018.webp
   description: Revealed unified activation of parabrachial CGRP neurons by multi-modal
     threats, including somatic pain, itch, visceral malaise -- in addition to satiety
     and conditioned fear.
@@ -240,6 +246,7 @@
   publisher: Nature Neuroscience
   date: '2017-07-01'
   link: https://www.nature.com/articles/nn.4574
+  image: images/citations/campos_2017.webp
   plugin: sources.py
   file: sources.yaml
   orcid: 0000-0002-8911-2572
@@ -269,6 +276,7 @@
   publisher: eLife
   date: '2020-08-28'
   link: https://elifesciences.org/articles/59799
+  image: images/citations/bowen_2020.jpg
   description: Parsed the network downstream of parabrachial CGRP neurons and how
     activity is added to give rise to distinct physiological and behavioral states
     and learning.
