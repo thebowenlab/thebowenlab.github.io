@@ -123,14 +123,15 @@ header[data-big] {
   flex-direction: column;
   padding: 100px 20px;
   top: unset;
+  /* 1) Hide logo on homepage big header */
+  /* 2) Bigger typography on homepage big header */
 }
 header[data-big] .home {
   flex-direction: column;
   flex-grow: 0;
 }
 header[data-big] .logo {
-  height: 80px;
-  flex-shrink: 0;
+  display: none;
 }
 header[data-big] .title-text {
   flex-direction: column;
@@ -138,10 +139,10 @@ header[data-big] .title-text {
   text-align: center;
 }
 header[data-big] .title {
-  font-size: var(--xxl);
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
 }
 header[data-big] .subtitle {
-  font-size: var(--large);
+  font-size: clamp(1.1rem, 2vw, 1.6rem);
 }
 
 /*# sourceMappingURL=header.css.map */
