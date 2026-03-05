@@ -25,7 +25,7 @@ Go here for a list of our published manuscripts and repositories.
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/brainRotationYYcolor.gif"
   link="research"
   title="Our Research"
   text=text
@@ -48,7 +48,7 @@ Go here to check out our active projects -- we're combining neuroscience and mac
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/rainbowvid1.gif"
   link="projects"
   title="Our Projects"
   flip=true
@@ -73,7 +73,7 @@ We're working out of the University of Washington's South Lake Union Campus.
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/SLU.jpg"
   link="team"
   title="Our Team"
   text=text
