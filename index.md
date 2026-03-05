@@ -10,7 +10,7 @@ We are a lab in the University of Washington's Diabetes Research Institute. We s
 
 {% capture text %}
 
-Go here for a list of our published manuscripts and repositories.
+Browse our published manuscripts and repositories.
 
 {%
   include button.html
@@ -33,7 +33,7 @@ Go here for a list of our published manuscripts and repositories.
 
 {% capture text %}
 
-Go here to check out our active projects -- we're combining neuroscience and machine learning approaches to map brain networks that predict blood glucose and build tools to sequence rodent behavior.
+Check out our ongoing projects -- we're combining state-of-the-art neuroscience and machine learning approaches to map brain networks that predict blood glucose and build tools to sequence rodent behavior.
 
 {%
   include button.html
@@ -58,7 +58,7 @@ Go here to check out our active projects -- we're combining neuroscience and mac
 
 {% capture text %}
 
-We're working out of the University of Washington's South Lake Union Campus.
+Get to know our group members -- we're working out of the University of Washington's South Lake Union Campus.
 
 {%
   include button.html
