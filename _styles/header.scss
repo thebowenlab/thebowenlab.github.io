@@ -147,9 +147,9 @@ header[data-big] {
     flex-grow: 0;
   }
 
+  /* 1) Hide logo on homepage big header */
   .logo {
-    height: $logo-big;
-    flex-shrink: 0;
+    display: none;
   }
 
   .title-text {
@@ -158,11 +158,12 @@ header[data-big] {
     text-align: center;
   }
 
+  /* 2) Bigger typography on homepage big header */
   .title {
-    font-size: var(--xxl);
+    font-size: clamp(2.2rem, 4vw, 3.4rem);
   }
 
   .subtitle {
-    font-size: var(--large);
+    font-size: clamp(1.1rem, 2vw, 1.6rem);
   }
 }
