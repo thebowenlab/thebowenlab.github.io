@@ -8,7 +8,7 @@ main {
 /* Home page: shift the 2nd sentence block to start mid-page */
 .home-lead-shift-small {
   margin-left: 150px !important;
-  border-left: 3px solid black;
+  border-left: 3px solid #ccc; /* light gray or 'black', #666 dark gray, #999 medium gray */
   padding-left: 10px;
 }
 
