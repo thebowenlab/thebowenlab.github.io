@@ -7,8 +7,8 @@ main {
 
 /* Home page: shift the 2nd sentence block to start mid-page */
 .home-lead-shift-small {
-  margin-left: 200px !important;
-  border-left: 3px solid red;
+  margin-left: clamp(2rem, 9vw, 8rem) !important;
+  border-left: 3px solid black;
   padding-left: 10px;
 }
 
