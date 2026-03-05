@@ -1,6 +1,6 @@
 ---
 name: Vijay Upadhya
-image: images/vijay.png
+image: images/members/vijay.png
 description: Lead Programmer
 role: research scientist/engineer
 links:
