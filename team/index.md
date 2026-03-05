@@ -7,9 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We're lucky to be part of the University of Washington network, enabling rich collaborations with experts in neural computation, machine learning, physiology, medicine, pharmacology, and biochemistry.  
 
 {% include section.html %}
 
@@ -18,9 +16,13 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Join us
+
+### Undergraduates 
+If you're a driven CS student wanting to use AI for real-world benefit, or a curious neuroscience or biology student wanting to work with big data and modern methods, reach out about interning in the lab -- we'd love to work with you!
+
+### Postdoctoral scientists
+If you'd like to use state-of-the-art computational and neuroscience methods to answer questions with direct translational relevance, we'd love to hear from you! Informal inquiries welcome to abowen5@uw.edu.
 
 {% include section.html %}
 
