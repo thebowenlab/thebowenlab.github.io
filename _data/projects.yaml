@@ -38,7 +38,7 @@
 
 - title: Sensory routes and glucose predictions
   subtitle: 
-  image: images/projects/nodes_for_predictions_2.png
+  image: images/projects/nodes_for_predictions_3.png
   description: We're testing how different taste and gut-derived sensory modalities integrate with external information to build glycemic predictions.
   repo: thebowenlab
   tags:
