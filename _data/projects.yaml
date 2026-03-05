@@ -17,6 +17,7 @@
   tags:
     - resource
     - publication
+    - collaboration
 
 - title: Multimodal modeling
   image: images/projects/JointModeling.png
@@ -24,17 +25,19 @@
   repo: thebowenlab
   tags:
     - resource
+    - collaboration
 
 - title: Forecasting changes during disease
   image: images/projects/Diabetes.png
-  description: We're collaborating with the Schwartz and Sweet labs at UWMDI to examine how neural forecasting of blood glucose changes as metabolic disease develops -- and whether existing and novel therapies revert towards a healthier state.
+  description: We're collaborating with other labs at UWMDI to examine how neural forecasting of blood glucose changes as metabolic disease develops -- and whether existing and novel therapies revert towards a healthier state.
   repo: thebowenlab
   tags:
     - resource
     - publication
+    - collaboration
 
-- title: Sensory routes
-  subtitle: Role of distinct input nodes in glucose predictions
+- title: Sensory routes and glucose predictions
+  subtitle: 
   image: images/projects/nodes_for_predictions_2.png
   description: We're testing how different taste and gut-derived sensory modalities integrate with external information to build glycemic predictions.
   repo: thebowenlab
