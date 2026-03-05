@@ -2,7 +2,7 @@
   group: featured
   image: images/projects/Npx-glucose-neurons.gif
   link: https://github.com/
-  description: We recorded from 18,000 neurons while simultaneously recording blood glucose levels to identify glucose-coding neurons across the brain. Publication and dataset coming soon!
+  description: We recorded from over 18,000 neurons while simultaneously recording blood glucose levels to identify glucose-coding neurons across the brain. Publication and dataset coming soon!
   repo: thebowenlab/bowen-et-al-2026
   tags:
     - resource
