@@ -23,7 +23,7 @@ If you're a driven CS student wanting to develop AI models for real-world benefi
 - Comfort with quantitative thinking (or desire to learn)
 - Collaborative mindset
 
-## How to inquire
+### How to inquire
 Email **abowen5@uw.edu** with:
 1. CV
 2. Short description of your interests (1–2 paragraphs)
