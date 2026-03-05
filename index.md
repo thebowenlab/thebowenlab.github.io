@@ -2,7 +2,7 @@
 ---
 
 # The Bowen Lab
-We are a lab in the University of Washington's Diabetes Research Institute. We study how the brain builds predictions that help support homeostasis. As part of a broader scientific collective, we are also developing and open-sourcing foundational datasets and models for detecting, tracking, and sequencing rodent behavior to unify scientific discoveries across experimental conditions.   
+We are a neuroscience lab in the University of Washington's Diabetes Research Institute, studying how the brain builds predictions that help support homeostasis. As part of a broader scientific collective, we are also developing and open-sourcing foundational datasets and models for detecting, tracking, and sequencing rodent behavior to unify scientific discoveries across experimental conditions.   
 
 {% include section.html %}
 
@@ -10,7 +10,7 @@ We are a lab in the University of Washington's Diabetes Research Institute. We s
 
 {% capture text %}
 
-Browse our published manuscripts and repositories.
+Browse our published manuscripts, datasets, and repositories.
 
 {%
   include button.html
@@ -33,7 +33,7 @@ Browse our published manuscripts and repositories.
 
 {% capture text %}
 
-Check out our ongoing projects -- we're combining state-of-the-art neuroscience and machine learning approaches to map brain networks that predict blood glucose and build tools to sequence rodent behavior.
+Take a look at our ongoing projects -- we're combining state-of-the-art neuroscience and machine learning approaches to map brain networks that predict blood glucose and build tools to sequence rodent behavior.
 
 {%
   include button.html
