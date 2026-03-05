@@ -3,7 +3,9 @@
 
 We are a neuroscience lab that studies how the brain builds predictions to support homeostasis. 
 
-As part of a broader scientific collective, we are also developing and open-sourcing foundational datasets and models for detecting, tracking, and sequencing rodent behavior to unify scientific discoveries across experimental conditions. 
+<p class="home-lead-shift">
+  As part of a broader scientific collective, we are also developing and open-sourcing foundational datasets and models for detecting, tracking, and sequencing rodent behavior to unify scientific discoveries across experimental conditions.
+</p>
 
 We are part of the University of Washington's Diabetes Research Institute. 
 
