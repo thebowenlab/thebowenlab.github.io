@@ -8,8 +8,16 @@ main {
 }
 
 /* Home page: shift the 2nd sentence block to start mid-page */
-.home-lead-shift {
+.home-lead-shift-small {
   margin-left: clamp(2rem, 9vw, 8rem);
+  margin-right: 0;
+  max-width: none;
+
+  text-align: left;
+}
+
+.home-lead-shift-medium {
+  margin-left: clamp(2rem, 18vw, 16rem);
   margin-right: 0;
   max-width: none;
 
@@ -18,7 +26,12 @@ main {
 
 /* Don’t shift on small screens */
 @media (max-width: 700px) {
-  .home-lead-shift {
+  .home-lead-shift-small {
+    margin-left: 0;
+    max-width: none;
+  }
+@media (max-width: 700px) {
+  .home-lead-shift-medium {
     margin-left: 0;
     max-width: none;
   }
