@@ -17,14 +17,14 @@ If you'd like to use state-of-the-art computational and neuroscience methods to 
 ### Undergraduates
 If you're a driven CS student wanting to develop AI models for real-world benefit, or a curious neuroscience or biology student wanting to work with big data and modern methods, reach out about interning in the lab -- we'd love to learn more about your interests!
 
-{% include section.html %}
-
-{% include section.html %}
-
 ### What we look for
 - Curiosity and motivation
 - Comfort with quantitative thinking (or desire to learn)
 - Collaborative mindset
+
+{% include section.html %}
+
+{% include section.html %}
 
 ### How to inquire
 Email **abowen5@uw.edu** with:
