@@ -48,7 +48,7 @@ Take a look at our ongoing projects -- we're combining state-of-the-art neurosci
 
 {%
   include feature.html
-  image="images/rainbowvid1.gif"
+  image="images/rainbowvid1_pad.gif"
   link="projects"
   title="Our Projects"
   flip=true
