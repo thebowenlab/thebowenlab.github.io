@@ -11,6 +11,9 @@ main {
 .home-lead-shift {
   margin-left: clamp(2rem, 18vw, 16rem);
   margin-right: 0;
+  max-width: none;
+
+  text-align: left;
 }
 
 /* Don’t shift on small screens */
