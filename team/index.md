@@ -20,9 +20,9 @@ We're lucky to be part of the University of Washington network, enabling rich co
 
 {% capture content %}
 
-{% include figure.html image="images/seasonal/spring/cherry_bud.jpeg" %}
-{% include figure.html image="images/seasonal/spring/cherry_quad_1.jpeg" %}
-{% include figure.html image="images/seasonal/spring/cherry_double.jpeg" %}
+{% include figure.html image="images/seasonal/spring/cherry_bud.jpeg" caption="Cherry Blossoms"  %}
+{% include figure.html image="images/seasonal/spring/cherry_quad_1.jpeg" caption="Cherry Blossoms in UW Quad"  %}
+{% include figure.html image="images/seasonal/spring/cherry_double.jpeg" caption="Mount Fuji Cherry"  %}
 
 {% endcapture %}
 
