@@ -12,11 +12,6 @@ A growing body of evidence suggests a direct role for the brain in regulating bl
 
 
 Our work is driven by the hypothesis that neural coding contributes to blood glucose regulation in a **predictive** way. With access to both external cues (such as the appearance, smell, and taste of food), internal signals related to nutrient intake, and information about the body’s own actions and energy use, the brain is uniquely positioned to act as a proactive glycemic controller.
-### Approach:
-To study how the brain supports glycemic control, we combine state-of-the-art systems neuroscience approaches in mice, including large-scale neural recordings with Neuropixels probes, continuous glucose monitoring, computational analysis, and self-supervised behavioral analysis.
-
-We first identify brain networks that forecast blood glucose levels and examine how these networks also represent other sensory and behavioral variables, such as taste. We then test how these network coding properties change in disease models. Our goal is to build a spatiotemporal map of how disease affects glycemic control networks and to identify therapeutic strategies that help restore healthier patterns of brain activity.
-
 
 {% include tags.html tags="publication, resource, collaboration" %}
 
@@ -28,6 +23,13 @@ We first identify brain networks that forecast blood glucose levels and examine 
 
 {% include list.html component="card" data="projects" filter="group == 'featured'" %}
 
+{% include section.html %}
+
+{% include section.html %}
+### Approach:
+To study how the brain supports glycemic control, we combine state-of-the-art systems neuroscience approaches in mice, including large-scale neural recordings with Neuropixels probes, continuous glucose monitoring, computational analysis, and self-supervised behavioral analysis.
+
+We first identify brain networks that forecast blood glucose levels and examine how these networks also represent other sensory and behavioral variables, such as taste. We then test how these network coding properties change in disease models. Our goal is to build a spatiotemporal map of how disease affects glycemic control networks and to identify therapeutic strategies that help restore healthier patterns of brain activity.
 {% include section.html %}
 
 ## More
