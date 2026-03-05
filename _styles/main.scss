@@ -8,12 +8,13 @@ main {
 }
 
 /* Home page: shift the 2nd sentence block to start mid-page */
-.home-lead-shift-small { margin-left: clamp(2rem, 9vw, 8rem) !important; 
+.home-lead-shift-small { 
+  margin-left: 150px !important; 
   border-left: 3px solid black; 
   padding-left: 10px; }
 
 .home-lead-shift-medium {
-  margin-left: clamp(2rem, 18vw, 16rem);
+  margin-left: 300px !important;
   margin-right: 0;
   max-width: none;
 
@@ -22,11 +23,8 @@ main {
 
 /* Don’t shift on small screens */
 @media (max-width: 700px) {
-  .home-lead-shift-small {
-    margin-left: 0;
-    max-width: none;
-  }
-    .home-lead-shift-medium {
+  .home-lead-shift-small,
+  .home-lead-shift-medium {
     margin-left: 0;
     max-width: none;
   }
