@@ -7,18 +7,23 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-handshake" %}Join Us
 
-We’re always interested in meeting motivated students and collaborators.
+## The Bowen Lab is Hiring!
+We are looking for curious and motivated colleagues to join our team. 
 
-## Current openings
-- **Postdoc:** TBD
-- **Undergraduates:** TBD
+{% include section.html background="images/background.jpg" dark=true %}
 
-## What we look for
+### Postdoctoral scientists
+If you'd like to use state-of-the-art computational and neuroscience methods to answer questions with direct translational relevance, we'd love to hear from you! Informal inquiries welcome to **abowen5@uw.edu**.
+
+### Undergraduates 
+If you're a driven CS student wanting to develop AI models for real-world benefit, or a curious neuroscience or biology student wanting to work with big data and modern methods, reach out about interning in the lab -- we'd love to learn more about your interests!
+
+### What we look for
 - Curiosity and motivation
 - Comfort with quantitative thinking (or desire to learn)
 - Collaborative mindset
 
-## How to apply
+## How to inquire
 Email **abowen5@uw.edu** with:
 1. CV
 2. Short description of your interests (1–2 paragraphs)
