@@ -10,12 +10,11 @@ nav:
 We are located at the University of Washington's South Lake Union Campus.
 
 Lab mailing address:
-<div>
-  Anna Bowen<br>
-  750 Republican Street<br>
-  F741<br>
-  Seattle, WA 98109
-</div>
+<strong>Lab Maiing Address:</strong>
+<br>Anna Bowen
+<br>750 Republican Street
+<br>F741
+<br>Seattle, WA 98109
 
 {%
   include button.html
