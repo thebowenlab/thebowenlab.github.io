@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Our publications are all open access. If repositories are not provided with the citation below, please contact us so we can give you access.
+Our publications are all open access. If repositories are not provided with the citation below, please contact us so we can share them with you.
 
 {% include section.html %}
 
