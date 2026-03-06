@@ -14,7 +14,7 @@ We're lucky to be part of the University of Washington network, enabling rich co
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}
 {% include list.html data="members" component="portrait" filter="role != 'pi'" %}
 
-{% include section.html background="images/background.jpg" dark=true %}
+{% include section.html background="images/background.png" dark=true %}
 
 {% include section.html %}
 
