@@ -27,5 +27,35 @@ main {
     max-width: none;
   }
 }
+.member-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.member-left {
+  flex: 0 0 260px; /* left column width; adjust as you like */
+  max-width: 320px;
+}
+
+.member-right {
+  flex: 1 1 auto; /* right column fills remaining space */
+  min-width: 0; /* important: prevents overflow in flex layouts */
+}
+
+/* Optional: tighten link spacing (buttons are inline-block) */
+.member-links .button-wrapper {
+  margin-top: 6px;
+}
+
+/* Stack on mobile */
+@media (max-width: 700px) {
+  .member-layout {
+    flex-direction: column;
+  }
+  .member-left {
+    max-width: none;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
