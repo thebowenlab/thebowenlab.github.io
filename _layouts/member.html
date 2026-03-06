@@ -2,23 +2,25 @@
 layout: default
 ---
 
-{% capture floatcontent %}
+<div class="member-layout">
+  <aside class="member-left">
+    {% include portrait.html lookup=page.slug %}
 
-{% include portrait.html lookup=page.slug %}
+    {% if page.links %}
+      <div class="member-links">
+        {% for link in page.links %}
+          {% assign key = link[0] %}
+          {% assign value = link[1] %}
+          {% include button.html type=key link=value style="bare" %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  </aside>
 
-<div>
-  {% for link in page.links %}
-    {% assign key = link[0] %}
-    {% assign value = link[1] %}
-    {% include button.html type=key link=value style="bare" %}<br>
-  {% endfor %}
+  <div class="member-right">
+    {{ content }}
+  </div>
 </div>
-
-{% endcapture %}
-
-{% include float.html content=floatcontent %}
-
-{{ content }}
 
 {% assign aliases = page.aliases
   | default: page.name
