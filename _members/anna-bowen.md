@@ -12,7 +12,10 @@ links:
   orcid: 0000-0002-8911-2572
 ---
 
-I joined the faculty at UW Medicine Diabetes Institute in February of 2026. Prior to that, I earned my PhD in Neuroscience at the University of Washington in 2020. My graduate work in Dr. Richard Palmiter’s lab examined how parabrachial and central amygdala circuits coordinate behavioral and physiological responses to aversive stimuli – both learned and innate. As a postdoctoral fellow in Dr. Nicholas Steinmetz’s lab, also at UW, I studied how brain-wide circuits integrate multi-timescale information to guide ingestive behavior. During my postdoc I was awarded the Hanna Gray Fellowship from Howard Hughes Medical Institute, which funded my postdoctoral work and continues to fund my independent lab. My current research directions are inspired by both the hypothesis-driven thinking entrained by my graduate mentors, the analytical and open-science bent of my postdoc, and the translational emphasis of my current colleagues at UWMDI. 
+I joined the faculty at the UW Medicine Diabetes Institute as an Assistant Professor in February 2026. I earned my PhD in Neuroscience at the University of Washington in 2020 in the lab of Richard Palmiter, where I studied how parabrachial and central amygdala circuits coordinate behavioral and physiological responses to aversive stimuli, including both learned and innate threats.
 
-In my spare time, I enjoy growing and eating tomatoes, reading, swimming, hiking, gardening, cooking with friends, listening to Sea Lions, and taking walks through Seattle neighborhoods. 
+I stayed at UW for my postdoctoral training in Nicholas Steinmetz’s lab, where I studied how brain-wide circuits integrate information across multiple timescales to guide ingestive behavior. During my postdoc I was awarded the Hanna Gray Fellowship from the Howard Hughes Medical Institute, which supported my postdoctoral work and continues to fund my independent lab.
 
+The projects in the lab today are shaped by these experiences: the hypothesis-driven experimental mindset instilled by my graduate mentors, the analytical and open-science perspective I developed during my postdoc, and the translational focus of my colleagues at the UW Medicine Diabetes Institute.
+
+Outside the lab, I enjoy growing and eating tomatoes, reading, swimming, hiking, gardening, cooking with friends, listening to sea lions, and walking through Seattle neighborhoods.
