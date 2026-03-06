@@ -12,7 +12,7 @@ We are a neuroscience lab that studies how the brain builds predictions to suppo
 <p class="home-lead-shift-medium">
   We are part of the University of Washington's
   <a href="https://uwmdi.org" target="_blank" rel="noopener noreferrer">
-    Diabetes Research Institute
+    Diabetes Institute
   </a>.
 </p>
 
