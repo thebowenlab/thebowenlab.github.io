@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-handshake" %}The Bowen Lab is Hiring!
 
-{% include section.html background="images/background.jpg" dark=true %}
+{% include section.html background="images/background.png" dark=true %}
 
 ### Postdoctoral scientists
 If you'd like to use state-of-the-art computational and neuroscience methods to answer questions with direct translational relevance, we'd love to hear from you! Informal inquiries welcome to **abowen5@uw.edu**.
