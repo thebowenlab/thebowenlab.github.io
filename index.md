@@ -2,6 +2,7 @@
 header: images/rainbow_background_header_1.png
 header-dark: true   # optional, if you want the dark treatment
 ---
+{% include section.html background="images/background.png" dark=true %}
 
 We are a neuroscience lab that studies how the brain builds predictions to support homeostasis. 
 
@@ -16,7 +17,7 @@ We are a neuroscience lab that studies how the brain builds predictions to suppo
   </a>.
 </p>
 
-{% include section.html background="images/background.png" dark=true %}
+{% include section.html %}
 
 ## Explore
 
