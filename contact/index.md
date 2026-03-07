@@ -47,6 +47,7 @@ nav:
     {%
       include figure.html
       image="images/SLU.jpg"
+      caption="South Lake Union Campus"
     %}
   </div>
 </div>
