@@ -16,7 +16,7 @@ Our publications are all open access. If repositories are not provided with the 
 
 {% include citation.html lookup="A stable, distributed code" style="rich" %}
 
-{% include citation.html lookup="Topographic representation of current and future threats" %}
+{% include citation.html lookup="Topographic representation of current and future threats" style="rich"%}
 
 {% include section.html %}
 
