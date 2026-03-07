@@ -22,12 +22,18 @@ nav:
     </p>
 
     <div class="contact-buttons-left">
-      {%
-        include button.html
-        type="email"
-        text="abowen5@uw.edu"
-        link="abowen5@uw.edu"
-      %}
+      <div class="button-wrapper">
+        <a class="button email-link" href="#" data-user="abowen5" data-domain="uw.edu" data-style="bare" aria-label="Email">
+          <i class="icon fa-solid fa-envelope"></i>
+          <span>Email</span>
+        </a>
+      </div>
+      
+      <noscript>
+        <div style="margin-top: 6px;">
+          Email: <span class="email-obf">abowen5 [at] uw [dot] edu</span>
+        </div>
+      </noscript>
       {%
         include button.html
         type="phone"
