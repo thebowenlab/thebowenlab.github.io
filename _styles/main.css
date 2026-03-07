@@ -80,7 +80,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* key */
-  gap: 8px;
+  gap: 0px;
 }
 
 /* The template's .button-wrapper is usually a flex container centered */
