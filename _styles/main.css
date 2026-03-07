@@ -59,5 +59,17 @@ main {
     max-width: none;
   }
 }
+.contact-hero-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  align-items: start;
+}
+
+@media (max-width: 700px) {
+  .contact-hero-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
