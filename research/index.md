@@ -9,7 +9,7 @@ nav:
 
 Our publications are all open access. If repositories are not provided with the citation below, please contact us so we can share them with you.
 
-{% include section.html %}
+{% include section.html background="images/background.jpg" dark=true %}
 
 ## Highlighted
 
