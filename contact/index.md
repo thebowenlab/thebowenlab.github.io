@@ -67,8 +67,8 @@ nav:
 
 {%
   include figure.html
-  image="images/SLU.jpg"
-  caption="South Lake Union Campus"
+  image="images/SLU_boats.jpg"
+  caption="MOHAI"
 %}
 
 {% endcapture %}
