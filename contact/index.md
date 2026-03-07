@@ -8,8 +8,12 @@ nav:
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
 {% include section.html background="images/background.png" dark=true %}
+
+{% capture col1 %}
+
 We are located at the University of Washington's South Lake Union Campus.
 
+<br>
 
 <strong>Lab Mailing Address:</strong>
 <br>Anna Bowen
@@ -17,6 +21,9 @@ We are located at the University of Washington's South Lake Union Campus.
 <br>F741
 <br>Seattle, WA 98109
 
+<br><br>
+
+<div class="contact-buttons-left">
 {%
   include button.html
   type="email"
@@ -35,6 +42,21 @@ We are located at the University of Washington's South Lake Union Campus.
   tooltip="Our location on Google Maps for easy navigation"
   link="https://maps.app.goo.gl/GrezeT3XjjsAWVxr5"
 %}
+</div>
+
+{% endcapture %}
+
+{% capture col2 %}
+
+{%
+  include figure.html
+  image="images/SLU.jpg"
+  caption="South Lake Union Campus"
+%}
+
+{% endcapture %}
+
+{% include cols.html col1=col1 col2=col2 %}
 
 {% include section.html %}
 {% include section.html %}
