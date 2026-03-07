@@ -39,12 +39,14 @@ nav:
         type="phone"
         text="(206) 897-9898"
         link="+1-206-897-9898"
+        style="bare"
       %}
       {%
         include button.html
         type="address"
         tooltip="Our location on Google Maps for easy navigation"
         link="https://maps.app.goo.gl/GrezeT3XjjsAWVxr5"
+        style="bare"
       %}
     </div>
   </div>
