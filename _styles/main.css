@@ -95,4 +95,8 @@ main {
   margin-left: 0 !important;
 }
 
+.email-obf {
+  font-family: var(--mono);
+}
+
 /*# sourceMappingURL=main.css.map */
