@@ -15,7 +15,7 @@ Our work is driven by the hypothesis that neural coding contributes to blood glu
 
 {% include search-info.html %}
 
-{% include section.html background="images/background.png" dark=true %}
+{% include section.html background="images/background.png" dark=false %}
 
 ## Featured
 
