@@ -75,3 +75,16 @@ main {
     grid-template-columns: 1fr;
   }
 }
+
+.contact-left {
+  text-align: left;
+}
+
+.contact-buttons-left {
+  text-align: left;
+}
+
+.contact-buttons-left .button-wrapper {
+  justify-content: flex-start;
+}
+
