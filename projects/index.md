@@ -23,7 +23,7 @@ Our work is driven by the hypothesis that neural coding contributes to blood glu
 {% include section.html %}
 
 
-{% include section.html background="images/background.png" dark=false %}
+{% include section.html background="images/background.png" dark=true %}
 
 **Approach** To study how the brain supports glycemic control, we combine state-of-the-art systems neuroscience approaches in mice, including large-scale neural recordings with Neuropixels probes, continuous glucose monitoring, computational analysis, and self-supervised behavioral analysis.
 
