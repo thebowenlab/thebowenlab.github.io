@@ -10,28 +10,45 @@ nav:
 {% include section.html background="images/background.png" dark=true %}
 
 <div class="contact-hero-grid">
-  <div>
-    We are located at the University of Washington's South Lake Union Campus.
+  <div class="contact-left">
+    <p>We are located at the University of Washington's South Lake Union Campus.</p>
 
-    <br><br>
-
-    <strong>Lab Mailing Address:</strong>
-    <br>Anna Bowen
-    <br>750 Republican Street
-    <br>F741
-    <br>Seattle, WA 98109
-
-    <br><br>
+    <p>
+      <strong>Lab Mailing Address:</strong><br>
+      Anna Bowen<br>
+      750 Republican Street<br>
+      F741<br>
+      Seattle, WA 98109
+    </p>
 
     <div class="contact-buttons-left">
-      {% include button.html type="email" text="abowen5@uw.edu" link="abowen5@uw.edu" %}
-      {% include button.html type="phone" text="(206) 897-9898" link="+1-206-897-9898" %}
-      {% include button.html type="address" tooltip="Our location on Google Maps for easy navigation" link="https://maps.app.goo.gl/GrezeT3XjjsAWVxr5" %}
+      {%
+        include button.html
+        type="email"
+        text="abowen5@uw.edu"
+        link="abowen5@uw.edu"
+      %}
+      {%
+        include button.html
+        type="phone"
+        text="(206) 897-9898"
+        link="+1-206-897-9898"
+      %}
+      {%
+        include button.html
+        type="address"
+        tooltip="Our location on Google Maps for easy navigation"
+        link="https://maps.app.goo.gl/GrezeT3XjjsAWVxr5"
+      %}
     </div>
   </div>
 
   <div>
-    {% include figure.html image="images/SLU.jpg" caption="South Lake Union Campus" %}
+    {%
+      include figure.html
+      image="images/YOUR_CONTACT_IMAGE.webp"
+      caption="South Lake Union Campus"
+    %}
   </div>
 </div>
 
