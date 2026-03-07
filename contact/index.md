@@ -7,6 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
+{% include section.html background="images/background.jpg" dark=true %}
 We are located at the University of Washington's South Lake Union Campus.
 
 
@@ -36,7 +37,7 @@ We are located at the University of Washington's South Lake Union Campus.
 %}
 
 {% include section.html %}
-
+{% include section.html %}
 {% capture col1 %}
 
 {%
