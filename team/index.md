@@ -6,15 +6,15 @@ nav:
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
-
+{% include section.html background="images/background.png" dark=true %}
 We're lucky to be part of the University of Washington network, enabling rich collaborations with experts in neural computation, machine learning, physiology, medicine, pharmacology, and biochemistry.  
 
-{% include section.html %}
+
 
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}
 {% include list.html data="members" component="portrait" filter="role != 'pi'" %}
 
-{% include section.html background="images/background.png" dark=true %}
+
 
 {% include section.html %}
 
