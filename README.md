@@ -5,6 +5,6 @@
 
   # The Bowen Lab's Website
 
-  Visit **[thebowenlab.github.io](https://thebowenlab.github.io)** 
+  Visit **[thebowenlab.org](http://thebowenlab.org)** 
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
