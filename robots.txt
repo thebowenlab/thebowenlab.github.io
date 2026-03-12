@@ -1,1 +1,1 @@
-Sitemap: http://thebowenlab.org/sitemap.xml
+Sitemap: https://thebowenlab.org/sitemap.xml
