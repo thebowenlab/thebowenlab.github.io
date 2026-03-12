@@ -9,7 +9,7 @@ nav:
 
 {% include section.html background="images/background.png" dark=true %}
 
-Growing evidence indicates a direct role for the brain in regulating blood glucose, alongside the pancreas. This is especially interesting given its more obvious role in guiding behavior – when, what, and how much we eat, and whether we exercise (and for how long). 
+Growing evidence indicates a role for the brain in directly regulating blood glucose, alongside the pancreas. This is particularly interesting given its more obvious role in guiding behavior – when, what, and how much we eat, and whether we exercise (and for how long). 
 
 We are motivated by the hypothesis that the brain contributes to blood glucose regulation in a **predictive** way. With access to both external cues (such as the appearance, smell, and taste of food), internal signals related to nutrient intake, and information about the body’s own actions and energy use, the brain is uniquely positioned to act as a proactive glycemic controller.
 
