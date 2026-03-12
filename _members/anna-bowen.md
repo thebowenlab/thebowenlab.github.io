@@ -12,7 +12,7 @@ links:
   orcid: 0000-0002-8911-2572
 ---
 
-I am Assistant Professor of Medicine in the Division of Metabolism, Endocrinology and Nutrition at the University of Washington and a member of the UW Diabetes Institute. Before starting my lab, I earned my PhD in Neuroscience at the University of Washington in the lab of [Richard Palmiter](https://en.wikipedia.org/wiki/Richard_Palmiter), where I studied how parabrachial and central amygdala circuits coordinate behavioral and physiological responses to aversive stimuli, including both learned and innate threats.
+I am Assistant Professor of Medicine in the Division of Metabolism, Endocrinology and Nutrition at the University of Washington and a member of the UW Medicine Diabetes Institute. Before starting my lab, I earned my PhD in Neuroscience at the University of Washington in the lab of [Richard Palmiter](https://en.wikipedia.org/wiki/Richard_Palmiter), where I studied how parabrachial and central amygdala circuits coordinate behavioral and physiological responses to aversive stimuli, including both learned and innate threats.
 
 I stayed at UW for my postdoctoral training in [Nicholas Steinmetz](https://www.nicksteinmetz.com)’s lab, where I studied how brain-wide circuits integrate multi-timescale information during ingestive behavior. During my postdoc I was awarded the [Hanna Gray Fellowship](https://www.hhmi.org/programs/hanna-h-gray-fellows) from the Howard Hughes Medical Institute, which supported my postdoctoral work and continues to fund my independent lab.
 
