@@ -99,18 +99,16 @@ main {
   font-family: var(--mono);
 }
 
-/* Put a full-width divider exactly at the bottom edge of the intro section */
-main > section:has(.home-intro) {
+main > section {
   position: relative;
 }
 
-main > section:has(.home-intro)::after {
-  content: "";
+.home-divider {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0; /* exactly on the section boundary */
-  border-top: 2px solid #ccc; /* divider color */
+  bottom: 0;
+  border-top: 3px solid #ccc;
 }
 
 /*# sourceMappingURL=main.css.map */
