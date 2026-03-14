@@ -18,8 +18,6 @@ We are a neuroscience lab that studies how the brain builds predictions to suppo
 
 {% include section.html %}
 
-## Explore
-
 {% capture text %}
 
 Browse our published manuscripts, datasets, and repositories.
@@ -45,7 +43,7 @@ Browse our published manuscripts, datasets, and repositories.
 
 {% capture text %}
 
-Take a look at our ongoing projects -- we're combining state-of-the-art neuroscience and machine learning approaches to map brain networks that predict blood glucose and building tools to sequence rodent behavior.
+We're combining state-of-the-art neuroscience and machine learning approaches to map brain networks that predict blood glucose and building tools to sequence rodent behavior.
 
 {%
   include button.html
