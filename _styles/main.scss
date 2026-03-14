@@ -102,15 +102,19 @@ main {
 
 .email-obf { font-family: var(--mono); }
 
-.full-divider {
-  width: 100%;
-  padding: 0;
-  margin: 0;
+.section-divider {
+  width: 100vw;                 /* full viewport width */
+  border: 0;
+  border-top: 2px solid #ccc;   /* pick your divider color */
+  margin: 0;                    /* no vertical spacing */
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;           /* break out of content width */
+  margin-right: -50vw;
 }
 
-.section-divider {
-  border: 0;
-  border-top: 3px solid #ccc;
-  margin: 0;
-  width: 100%;
+section:has(.section-divider) {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
