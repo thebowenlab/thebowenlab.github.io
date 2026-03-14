@@ -10,7 +10,7 @@ nav:
 {% include section.html background="images/background.png" dark=true %}
 
 ### Postdoctoral scientists
-If you'd like to use state-of-the-art computational and neuroscience methods to answer questions with direct translational relevance, we'd love to hear from you! Informal inquiries welcome to <span class="email-obf">abowen5 [at] uw [dot] edu</span>.
+If you'd like to use world class computational and neuroscience methods to answer questions with direct translational relevance, we'd love to hear from you! Informal inquiries welcome to <span class="email-obf">abowen5 [at] uw [dot] edu</span>.
 
 ### Undergraduates
 If you're a driven CS student wanting to develop AI models for real-world benefit, or a curious neuroscience or biology student wanting to work with big data and modern methods, reach out about interning in the lab -- we'd love to learn more about your interests!
