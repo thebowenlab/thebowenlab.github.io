@@ -18,7 +18,12 @@ We are a neuroscience lab that studies how the brain builds predictions to suppo
 </p>
 
 
+{% include section.html %}
+
+{% include section.html size="full" %}
 <hr class="section-divider">
+{% include section.html %}
+
 {% include section.html %}
 
 ## Explore
