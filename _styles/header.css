@@ -139,7 +139,7 @@ header[data-big] .title-text {
   text-align: center;
 }
 header[data-big] .title {
-  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  font-size: clamp(2.53rem, 4.6vw, 3.91rem);
 }
 header[data-big] .subtitle {
   font-size: clamp(1.1rem, 2vw, 1.6rem);
