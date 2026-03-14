@@ -102,6 +102,12 @@ main {
 
 .email-obf { font-family: var(--mono); }
 
+.full-divider {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
 .section-divider {
   border: 0;
   border-top: 3px solid #ccc;
