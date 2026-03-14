@@ -3,26 +3,18 @@ header: images/rainbow_background_header_1.png
 header-dark: true   # optional, if you want the dark treatment
 ---
 
+<div class="home-intro">
+  We are a neuroscience lab that studies how the brain builds predictions to support homeostasis.
 
-We are a neuroscience lab that studies how the brain builds predictions to support homeostasis. 
+  <p class="home-lead-shift-small">
+    As part of a broader scientific collective, we are also developing and open-sourcing foundational datasets and models for detecting, tracking, and sequencing rodent behavior to unify scientific discoveries across experimental conditions.
+  </p>
 
-<p class="home-lead-shift-small">
-  As part of a broader scientific collective, we are also developing and open-sourcing foundational datasets and models for detecting, tracking, and sequencing rodent behavior to unify scientific discoveries across experimental conditions.
-</p>
-
-<p class="home-lead-shift-medium">
-  We are part of the University of Washington's
-  <a href="https://uwmdi.org" target="_blank" rel="noopener noreferrer">
-    Diabetes Institute
-  </a>.
-</p>
-
-
-{% include section.html %}
-
-{% include section.html size="full" %}
-<hr class="section-divider">
-{% include section.html %}
+  <p class="home-lead-shift-medium">
+    We are part of the University of Washington's
+    <a href="https://uwmdi.org" target="_blank" rel="noopener noreferrer">Diabetes Institute</a>.
+  </p>
+</div>
 
 {% include section.html %}
 
