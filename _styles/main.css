@@ -99,20 +99,18 @@ main {
   font-family: var(--mono);
 }
 
-.section-divider {
-  width: 100vw; /* full viewport width */
-  border: 0;
-  border-top: 2px solid #ccc; /* pick your divider color */
-  margin: 0; /* no vertical spacing */
+/* Put a full-width divider exactly at the bottom edge of the intro section */
+main > section:has(.home-intro) {
   position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw; /* break out of content width */
-  margin-right: -50vw;
 }
 
-section:has(.section-divider) {
-  padding: 0 !important;
+main > section:has(.home-intro)::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0; /* exactly on the section boundary */
+  border-top: 2px solid #ccc; /* divider color */
 }
 
 /*# sourceMappingURL=main.css.map */
