@@ -95,6 +95,9 @@
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "{{ icon }}" }
+      {% if site.sameAs %}
+      , "sameAs": {{ site.sameAs | jsonify }}
+      {% endif %}
     },
     "url": "{{ url }}"
   }
