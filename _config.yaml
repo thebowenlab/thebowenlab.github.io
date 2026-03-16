@@ -6,6 +6,17 @@ header: images/background.png
 footer: images/background.png
 proofer: false
 
+# cross-site linkage
+sameAs:
+  - https://orcid.org/0000-0002-8911-2572
+  - https://scholar.google.com/citations?user=EmnJRuwAAAAJ&hl=en
+  - https://github.com/thebowenlab
+  # - https://your-uw-profile-url
+
+# domain
+url: https://thebowenlab.org
+baseurl: ""
+
 # site social media and other links
 links:
   orcid: 0000-0002-8911-2572
