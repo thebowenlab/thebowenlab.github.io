@@ -1,7 +1,7 @@
 - title: Glucose forecasting networks
   group: featured
   image: images/projects/Npx-glucose-neurons.gif
-  link: https://github.com/
+  link: https://github.com/thebowenlab/bowen-et-al-2026
   description: We recorded from over 18,000 neurons while simultaneously recording blood glucose levels to identify glucose-coding neurons across the brain. Publication and dataset coming soon!
   repo: thebowenlab/bowen-et-al-2026
   tags:
@@ -11,7 +11,7 @@
 - title: A foundational surface model of the mouse
   group: featured
   image: images/projects/joined_videos.gif
-  link: https://github.com/
+  link: https://github.com/thebowenlab
   description: A collaboration with the Campos Lab at UW developing a foundational model to map any mouse image onto a canonical 3D surface. Publication and model launch coming soon!  
   repo: thebowenlab
   tags:
