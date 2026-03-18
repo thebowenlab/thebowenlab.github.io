@@ -1,5 +1,5 @@
 ---
-name: Sabrina (Ying) Yu
+name: Ying (Sabrina) Yu
 image: images/members/Sabrina.jpg
 description: Master's Student 
 role: Collaborator
