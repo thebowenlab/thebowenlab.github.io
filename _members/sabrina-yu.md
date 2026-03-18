@@ -1,7 +1,8 @@
 ---
 name: Sabrina (Ying) Yu
 image: images/members/Sabrina.jpg
-role: Master's Student
+description: Master's Student 
+role: Collaborator
 links:
   home-page: https://www.sabrina-yu.com/
 ---
