@@ -9,9 +9,13 @@ nav:
 
 {% include section.html background="images/background.png" dark=true %}
 
-Growing evidence indicates a role for the brain in directly regulating blood glucose, alongside the pancreas. This is particularly interesting given its more obvious role in guiding behavior – when, what, and how much we eat, and whether we exercise (and for how long). 
+We hypothesize that the brain contributes to blood glucose regulation in a **predictive** way -- integrating external cues (appearance/smell/taste of food), nutrient sensing, and knowledge of the body’s own actions and energy use to act as a proactive glycemic controller.
 
-We are motivated by the hypothesis that the brain contributes to blood glucose regulation in a **predictive** way -- integrating external cues (appearance/smell/taste of food), nutrient sensing, and knowledge of the body’s own actions and energy use to act as a proactive glycemic controller.
+Project round-up:
+* Mapping disease-coupled changes in glucose forecasting and sensory encoding using wide-scale Neuropixels recordings and cue-based learning tasks in mice 
+* Functional delineation of physiological and behavioral outputs using Neuropixels Opto-based manipulations in glucose-forecasting networks   
+* Developing multi-modal deep learning models to jointly encode neural activity, behavior, and physiological state
+* Creating and training model pipelines and user interfaces to model behavior at-scale 
 
 {% include tags.html tags="publication, resource, collaboration" %}
 
