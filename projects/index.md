@@ -11,11 +11,11 @@ nav:
 
 We hypothesize that the brain contributes to blood glucose regulation in a **predictive** way -- integrating external cues (appearance/smell/taste of food), nutrient sensing, and knowledge of the body’s own actions and energy use to act as a proactive glycemic controller.
 
-Project round-up:
-* Mapping disease-coupled changes in glucose forecasting and sensory encoding using wide-scale Neuropixels recordings and cue-based learning tasks in mice 
-* Functional delineation of physiological and behavioral outputs using Neuropixels Opto-based manipulations in glucose-forecasting networks   
-* Developing multi-modal deep learning models to jointly encode neural activity, behavior, and physiological state
-* Creating and training model pipelines and user interfaces to model behavior at-scale 
+Current projects:
+* Identifying brain-wide networks that forecast future blood glucose changes
+* Testing how specific neurons and regions influence both metabolism and behavior
+* Building machine learning models that connect brain activity, physiology, and behavior
+* Creating scalable tools for measuring behavior across large experiments
 
 {% include tags.html tags="publication, resource, collaboration" %}
 
