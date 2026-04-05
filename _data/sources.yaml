@@ -4,7 +4,7 @@
 #  image:
 - id: https://doi.org/10.64898/2026.04.01.715678
   image: images/citations/glat_2026.png
-  description: Revealed that AgRP neurons respond to oral glucose in two phases — an early predictive response followed by a second phase that tracks the resulting glycemic response.
+  description: Revealed that AgRP neurons respond to oral glucose in two phases — an early predictive response followed by a second phase that tracks the resulting glycemic trajectory.
   buttons:
     - type: source
       text: Source code
