@@ -14,6 +14,10 @@
   date: '2026-04-03'
   link: https://www.biorxiv.org/content/10.64898/2026.04.01.715678v2
   image: images/citations/glat_2026.png
+  description: "Identifies that AgRP neurons respond to oral glucose in two phases\
+    \ \u2014 an early predictive phase and a later phase that tracks the resulting\
+    \ glycemic response \u2014 suggesting these neurons help link feeding signals\
+    \ to blood-glucose regulation"
   buttons:
   - type: source
     text: Source code
@@ -121,9 +125,9 @@
   publisher: eLife
   date: '2023-05-30'
   link: https://elifesciences.org/articles/84604
-  description: Examines the distribution of value-coding neurons across prefrontal
-    cortex, combining electrophysiology and 2-photon calcium imaging. Dataset available
-    for download.
+  description: Examined the distribution of value-coding neurons across prefrontal
+    cortex, combining electrophysiology and 2-photon calcium imaging. Dataset or neural
+    recordings from >5,300 neurons in 9 brain regions available for download.
   image: images/citations/ottenheimer_2023.png
   buttons:
   - type: source
