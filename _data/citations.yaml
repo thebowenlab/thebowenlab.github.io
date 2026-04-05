@@ -14,10 +14,9 @@
   date: '2026-04-03'
   link: https://www.biorxiv.org/content/10.64898/2026.04.01.715678v2
   image: images/citations/glat_2026.png
-  description: "Identifies that AgRP neurons respond to oral glucose in two phases\
-    \ \u2014 an early predictive phase and a later phase that tracks the resulting\
-    \ glycemic response \u2014 suggesting these neurons help link feeding signals\
-    \ to blood-glucose regulation"
+  description: "Revealed that AgRP neurons respond to oral glucose in two phases \u2014\
+    \ an early predictive response followed by a later phase that tracks the resulting\
+    \ glycemic response."
   buttons:
   - type: source
     text: Source code
