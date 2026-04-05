@@ -9,7 +9,7 @@
       text: Source code
       link: https://github.com/thebowenlab/glucose-photometry.git
     - type: data
-      text: Source data
+      text: Dataset
       link: https://doi.org/10.6084/m9.figshare.31891579  
   tags:
     - collaboration
@@ -25,7 +25,7 @@
       text: Source code
       link: https://doi.org/10.5281/zenodo.7718542
     - type: data
-      text: Source data
+      text: Dataset
       link: https://doi.org/10.6084/m9.figshare.21365598
   tags:
     - open science
@@ -58,7 +58,7 @@
   description: Parsed the network downstream of parabrachial CGRP neurons and how activity is added to give rise to distinct physiological and behavioral states and learning.
   buttons:
     - type: data
-      text: Source data
+      text: Dataset
       link: https://doi.org/10.5061/dryad.rn8pk0p7k
   tags:
     - open science
@@ -68,7 +68,7 @@
   image: images/citations/bowen_2023.webp
   buttons:
     - type: data
-      text: download data
+      text: Dataset
       link: https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-023-35826-4/MediaObjects/41467_2023_35826_MOESM4_ESM.xlsx
     
 - id: https://doi.org/10.1523/jneurosci.1162-19.2019
