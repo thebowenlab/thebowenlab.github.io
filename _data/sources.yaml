@@ -22,8 +22,8 @@
   image: images/citations/ottenheimer_2023.png
   buttons:
     - type: source
-      text: Manuscript Source
-      link: https://elifesciences.org/articles/84604
+      text: Source code
+      link: https://doi.org/10.5281/zenodo.7718542
     - type: data
       text: Source data
       link: https://doi.org/10.6084/m9.figshare.21365598
@@ -58,7 +58,7 @@
   description: Parsed the network downstream of parabrachial CGRP neurons and how activity is added to give rise to distinct physiological and behavioral states and learning.
   buttons:
     - type: data
-      text: download data
+      text: Source data
       link: https://doi.org/10.5061/dryad.rn8pk0p7k
   tags:
     - open science
