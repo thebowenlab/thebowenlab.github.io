@@ -31,6 +31,19 @@
   plugin: sources.py
   file: sources.yaml
   orcid: 0000-0002-8911-2572
+- id: doi:10.6084/m9.figshare.31891579
+  title: 'Data for: <i>AgRP Neuron Activity Predicts and Tracks the Glycemic Response
+    to Oral Glucose</i>'
+  authors:
+  - Anna Bowen
+  - Micaela Glat
+  - Michael W. Schwartz
+  publisher: figshare
+  date: '2026-04-02'
+  link: https://doi.org/hbwvkz
+  orcid: 0000-0002-8911-2572
+  plugin: orcid.py
+  file: orcid.yaml
 - id: https://doi.org/10.1126/sciadv.adp3059
   title: Single-cell sequencing of rodent ventral pallidum reveals diverse neuronal
     subtypes with noncanonical interregional continuity
