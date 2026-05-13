@@ -8,10 +8,10 @@
     - resource
     - publication
 
-- title: A foundational surface model of the mouse
+- title: Mouse Atlas
   group: featured
   image: images/projects/joined_videos.gif
-  link: https://github.com/thebowenlab
+  link: https://mouseatlas.ai
   description: A collaboration with the Campos Lab at UW developing a foundational model to map any mouse image onto a canonical 3D surface. Publication and model launch coming soon!  
   repo: thebowenlab
   tags:
