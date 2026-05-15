@@ -11,7 +11,7 @@ layout: default
         {% for link in page.links %}
           {% assign key = link[0] %}
           {% assign value = link[1] %}
-          {% include button.html type=key link=value style="bare" %}
+          {% include button.html type=key link=value style="bare" target="_blank" rel="noopener noreferrer" %}
         {% endfor %}
       </div>
     {% endif %}
