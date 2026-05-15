@@ -8,7 +8,7 @@ aliases:
   - A.J. Bowen
   - Bowen, AJ
 links:
-  google-scholar: https://scholar.google.com/citations?user=EmnJRuwAAAAJ&hl=en
+  google-scholar: EmnJRuwAAAAJ&hl=en
   orcid: 0000-0002-8911-2572
 ---
 
