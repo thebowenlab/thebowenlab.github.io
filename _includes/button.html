@@ -6,6 +6,8 @@
     <a
       class="button"
       href="{{ button.link | replace: "$LINK", button.link | relative_url }}"
+      target="_blank"
+      rel="noopener noreferrer"
       {% if button.tooltip %}
         data-tooltip="{{ button.tooltip | xml_escape }}"
       {% endif %}
