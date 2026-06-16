@@ -2,7 +2,7 @@
 #- id:
 #  type:
 #  image:
-- id: https://doi.org/10.64898/2026.04.01.715678
+- id: https://doi.org/10.1016/j.molmet.2026.102372
   image: images/citations/glat_2026.png
   description: Revealed that AgRP neurons respond to oral glucose in two phases — an early predictive response followed by a second phase that tracks the resulting glycemic trajectory.
   buttons:
@@ -14,7 +14,6 @@
       link: https://doi.org/10.6084/m9.figshare.31891579  
   tags:
     - collaboration
-    - preprint
     - open science
     
 - id: https://doi.org/10.7554/eLife.84604
@@ -38,11 +37,10 @@
   tags:
     - collaboration
 
-- id: https://doi.org/10.1101/2025.02.04.636286
+- id: https://doi.org/10.1038/s41592-026-03076-z
   image: images/citations/neuropixelsopto_2025.png
   tags:
     - collaboration
-    - preprint
 
 - id: https://doi.org/10.1101/2024.11.01.621418
   image: images/citations/matveev_2025.png
