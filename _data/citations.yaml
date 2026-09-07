@@ -90,44 +90,6 @@
   plugin: sources.py
   file: sources.yaml
   orcid: 0000-0002-8911-2572
-- id: doi:10.1101/2025.02.04.636286
-  title: 'Neuropixels Opto: Combining high-resolution electrophysiology and optogenetics'
-  authors:
-  - Anna Lakunina
-  - Karolina Z Socha
-  - Alexander Ladd
-  - Anna J Bowen
-  - Susu Chen
-  - Jennifer Colonell
-  - Anjal Doshi
-  - Bill Karsh
-  - Michael Krumin
-  - Pavel Kulik
-  - Anna Li
-  - Pieter Neutens
-  - "John O\u2019Callaghan"
-  - Meghan Olsen
-  - Jan Putzeys
-  - Charu Bai Reddy
-  - Harrie AC Tilmans
-  - Sara Vargas
-  - Marleen Welkenhuysen
-  - Zhiwen Ye
-  - "Michael H\xE4usser"
-  - Christof Koch
-  - Jonathan T. Ting
-  - Barundeb Dutta
-  - Timothy D Harris
-  - Nicholas A Steinmetz
-  - Karel Svoboda
-  - Joshua H Siegle
-  - Matteo Carandini
-  publisher: openRxiv
-  date: '2025-02-06'
-  link: https://doi.org/hbq93z
-  orcid: 0000-0002-8911-2572
-  plugin: orcid.py
-  file: orcid.yaml
 - id: https://doi.org/10.1101/2024.11.01.621418
   title: Simultaneous mesoscopic measurement and manipulation of mouse cortical activity
   authors:
@@ -176,6 +138,34 @@
   plugin: sources.py
   file: sources.yaml
   orcid: 0000-0002-8911-2572
+- id: doi:10.7554/eLife.84604.2
+  title: A stable, distributed code for cue value in mouse cortex during reward learning
+  authors:
+  - David J. Ottenheimer
+  - Madelyn M. Hjort
+  - Anna J. Bowen
+  - Nicholas A. Steinmetz
+  - Garret D. Stuber
+  publisher: eLife Sciences Publications, Ltd
+  date: '2023-06-07'
+  link: https://doi.org/hbq933
+  orcid: 0000-0002-8911-2572
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.7554/eLife.84604.1
+  title: A stable, distributed code for cue value in mouse cortex during reward learning
+  authors:
+  - David J. Ottenheimer
+  - Madelyn M. Hjort
+  - Anna J. Bowen
+  - Nicholas A. Steinmetz
+  - Garret D. Stuber
+  publisher: eLife Sciences Publications, Ltd
+  date: '2023-02-24'
+  link: https://doi.org/hcdbzc
+  orcid: 0000-0002-8911-2572
+  plugin: orcid.py
+  file: orcid.yaml
 - id: https://doi.org/10.1038/s41467-023-36603-z
   title: Parabrachial tachykinin1-expressing neurons involved in state-dependent breathing
     control
